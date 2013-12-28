@@ -292,3 +292,10 @@ let g:SuperTabDefaultCompletionType = "context"
 
 Link: https://github.com/ervandew/supertab
 
+Inny's Todo List
+================
+
+1. Syntax Highlighting for Love, something I never did.
+2. Tab Completion for Love, also something that would be awesome to have.
+3. Someway to start love from in Vim, on linux I would use `:!love .` to do that, how would this work on windows?
+
