@@ -1,3 +1,7 @@
+---
+title: Inmatarian's Vim Setup
+---
+
 Inmatarian's Vim Setup
 ======================
 
