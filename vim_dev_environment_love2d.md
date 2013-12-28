@@ -7,6 +7,9 @@ Inmatarian's Vim Setup
 
 Just for kicks, I replicated my Vim on my Windows8 machine. Here I'll document everything I needed to do to get it working. This document will be be good for general purpose development, but I'll be using Vim for Lua/Love2d development and my choice of plugins and configs will probably be in response to making Lua development easier. I imagine that my configs might make it harder to develop in other languages.
 
+Screenshot'd
+![Holy Vim Batman](vim_screenshot.png "Holy Vim Batman")
+
 ## Step 1: Install gVim
 
 It's entirely possible to get by with cygwin, and I also installed vim for cygwin, but I prefer to use the gui version.
