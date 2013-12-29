@@ -9,6 +9,7 @@ Inmatarian's Vim Setup
 Just for kicks, I replicated my Vim on my Windows8 machine. Here I'll document everything I needed to do to get it working. This document will be be good for general purpose development, but I'll be using Vim for Lua/Love2d development and my choice of plugins and configs will probably be in response to making Lua development easier. I imagine that my configs might make it harder to develop in other languages.
 
 Screenshot'd
+
 ![Holy Vim Batman](/img/vim_screenshot.png "Holy Vim Batman")
 
 ## Step 1: Install gVim
@@ -291,8 +292,6 @@ Inny's Todo List
 2. Tab Completion for Love, also something that would be awesome to have.
 3. Someway to start love from in Vim, on linux I would use `:!love .` to do that, how would this work on windows?
 
-References
-==========
 
 [gVim]: http://www.vim.org/download.php#pc
 [Pathogen]: https://github.com/tpope/vim-pathogen

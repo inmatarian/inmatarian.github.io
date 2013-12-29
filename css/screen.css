@@ -1,0 +1,14 @@
+
+html {
+    margin: 8px;
+    width: 1008px;
+}
+
+h1 {
+    border-bottom: 1px solid black;
+}
+
+code {
+    background-color: #eeeeee;
+}
+
