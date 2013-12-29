@@ -5,10 +5,48 @@ html {
 }
 
 h1 {
-    border-bottom: 1px solid black;
+    text-decoration: underline;
+    font-size: 3em;
+    margin: .25em 0 .25em 0;
 }
 
-code {
+h2 {
+    font-size: 2em;
+    margin: .25em 0 .25em 0;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: .25em 0 .25em 0;
+}
+
+p {
+  margin: 1em 0.5em;
+}
+
+pre code {
+    font-family: monospace;
+    margin: 1em;
+    padding: 1em;
+    display: block;
     background-color: #eeeeee;
+}
+
+ul,ol {
+    margin: 1em;
+    padding: 1em;
+    display: block;
+}
+
+ol li {
+    display: list-item;
+    list-style-type: decimal;
+    margin: 0.1em 0;
+}
+
+ul li {
+    display: list-item;
+    list-style-type: disc;
+    margin: 0.1em 0;
 }
 
