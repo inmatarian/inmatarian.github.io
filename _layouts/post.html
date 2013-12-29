@@ -1,10 +1,12 @@
 ---
 layout: layout
 ---
+<div class="date">
+<h1 class="title">{{ post.title }}</h1>
+<p>{{ page.date | date: "%d %B %Y" }}</p>
+</div>
 
 <div class="content">
-  <div id="post">
-    <h1>{{ post.title }}</h1>
-    {{ content }}
-  </div>
+{{ content }}
 </div>
+
