@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Inmatarian's Vim Setup
 ---
 
