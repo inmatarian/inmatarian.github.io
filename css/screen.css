@@ -1,23 +1,28 @@
-
 html {
-    margin: 8px;
-    width: 1008px;
+    margin: auto;
+    max-width: 1008px;
+}
+
+header h1 {
+    text-decoration: none;
+    font-size: 3em;
+    margin: .25em auto;
 }
 
 h1 {
-    text-decoration: underline;
-    font-size: 3em;
-    margin: .25em 0 .25em 0;
+    text-decoration: none;
+    font-size: 2.5em;
+    margin: .25em 4px;
 }
 
 h2 {
     font-size: 2em;
-    margin: .25em 0 .25em 0;
+    margin: .25em 4px;
 }
 
 h3 {
     font-size: 1.5em;
-    margin: .25em 0 .25em 0;
+    margin: .25em 4px;
 }
 
 p {
@@ -49,4 +54,3 @@ ul li {
     list-style-type: disc;
     margin: 0.1em 0;
 }
-
