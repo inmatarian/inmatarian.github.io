@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Funny Lua Behavior #1
+title: Funny Lua Behavior - debug.setmetatable and object properties
 ---
 
-Funny Lua Behavior #1
-=====================
+# Funny Lua Behavior - debug.setmetatable and object properties
 
 Lua's type-system has more than a few types which allow you to lookup properties. Tables are the obvious, as that's exactly what they're for.
 
