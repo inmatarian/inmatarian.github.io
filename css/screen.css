@@ -39,6 +39,12 @@ pre code {
     background-color: #eeeeee;
 }
 
+p code {
+    font-family: monospace;
+    display: inline-block;
+    background-color: #eeeeee;
+}
+
 ul,ol {
     margin: 1em;
     padding: 1em;
