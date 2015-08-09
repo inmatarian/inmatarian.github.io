@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Higher Order Functions in Lua: Send More Money
+title: Higher Order Functions in Lua - Send More Money
 ---
 
-# Higher Order Functions in Lua: Send More Money
+# Higher Order Functions in Lua - Send More Money
 
 There's a classic problem for children first learning algebra and deductive reasoning skills known as SEND+MORE=MONEY (which wikipedia calls a cryptarithm and was published in 1924 by Strand Magazine). Each letter is a stand in for a numeric digit and the goal is to find the value for each letter such that it makes a valid equation. The process of deducing it (spoilers) is to realise that M is clearly a 1 (two 4 digit numbers can only make a 5 digit number starting with 1), S can't be a 0 for the same reason, but then is clearly 9, since 9+1 is the only way here to get to 10, making O be 0, and so on. For fun, go deduce the rest on the problem on your own.
 
