@@ -125,11 +125,14 @@ The map function here has the interesting propery that it's reusable anywhere yo
       end
     end
 
-This is the first Higher Order Function. It takes a function and value as input, and returns a function as output. It also shows an interesting property, called "Closure", in that the func and x variables are enclosed in the function thats returned and can be used in a later invocation. Again, it's not clear why you'd need this. But there's an interesting nuance to what this function gives you:
+This is the first Higher Order Function. It takes a function and value as input, and returns a function as output. It also shows an interesting property, called "Closure", in that the func and x variables are enclosed in the function that's returned and can be used in a later invocation. Again, it's not clear why you'd need this. But there's an interesting nuance to what this function gives you:
 
-    doubled = partial(map, function(x) return x * 2 end)
+    double = function(x) return x * 2 end
+    doubled = partial(map, double)
     Y = {1, 2, 3}
     Z = doubled(Y)
+
+The doubled function is defined as the partial of map and double. We give names to each of the pieces of the problem.
 
 ## Mom, this is what I do for a living now, please send more money!
 
@@ -156,9 +159,9 @@ This diffc function is a Higher Order Function. And it kind of looks like the Pa
         local arg = { unpack(T) }
         arg[#arg+1] = x
 
-        for i = 1, #s-1
-          for j = i+1, #s do
-            if s[i] == s[j] then
+        for i = 1, #arg-1 do
+          for j = i+1, #arg do
+            if arg[i] == arg[j] then
               return false
             end
           end
